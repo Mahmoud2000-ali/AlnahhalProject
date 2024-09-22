@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 10px; */
+    /* border: 1px solid black; */
+    text-align: center;
+    align-items: center;
+}
+.container{
+    /* background-color: black; */
+    /* border: 1px solid black; */
+    border-radius: 30px;
+}
+.section-one{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+.logo1{
+    height: 100%;
+    width: 100%;   
+    /* border-radius: 30px; */
+}
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align:center;
+    font-weight: bold;
+}
+.title{
+    background-color: #2472AF;
+    width: 250px;
+    padding: 5px;
+    border-radius: 8px;
+     margin: 0 auto;
+
+}
+.sub-tit{
+    background-color: #91B9D7;
+    padding: 5px;
+    border-radius: 8px;
+     margin: 15px auto;
+}
+.section-tow{
+    background-color: #F0FAED;
+    color: #2D3B57;
+    margin-top: 0px;
+}
+.activites{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            /* background-color: white; */
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            border-radius: 10px;
+}
+.activite-one{
+    /* border: 1px solid black;
+    width: 200px; */
+            text-align: center;
+            padding: 20px;
+            width: 25%;
+}
+#title-tow{
+    margin: 0;
+    padding: 30px 0 0 0;
+    
+}
+.activite-one img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;    
+}
+.activite-one h3{
+            font-size: 25px;
+            margin: 15px 0 10px;    
+}
+.activite-one p{
+            font-size: 14px;
+            line-height: 1.5;   
+}
+.section-three{
+    width: 500px;
+    height: 350px;
+    background-color: #A7DBDA;
+    color: #2D3B57;
+    margin: 70px auto 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    border-bottom: 8px solid #427D9F;
+}
+.three-logo{
+    width: 220px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.info{
+    margin: 20px;
+}
